@@ -1,0 +1,24 @@
+{
+  "name": "hello-server",
+  "version": "1.0.0",
+  "description": "A hello server template for testing docker deployer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/csfx-py/node-hello-server.git"
+  },
+  "author": "Shreyas Prabhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csfx-py/node-hello-server/issues"
+  },
+  "homepage": "https://github.com/csfx-py/node-hello-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
